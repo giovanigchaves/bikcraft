@@ -1,0 +1,23 @@
+/******************************/
+/* Estilo inicial do Site */
+/******************************/
+
+/* Reset / Configurações */
+@import "./global/global.css";
+
+/* Cores */
+@import "utilidades/cores.css";
+
+/* Tipografia */
+@import "utilidades/tipografia.css";
+
+/* Componentes */
+@import "utilidades/componentes.css";
+
+
+/******************************/
+/* Estilo para paginas do site */
+/******************************/
+/* Cabeçalho do Site */
+@import "global/header.css";
+
