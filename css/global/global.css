@@ -37,7 +37,11 @@ img[src$=".jpg"]{
   border-radius: 4px;
 }
 
-
+/* temporario */
+.margin-boton{
+  padding: 100px;
+  background-color: #d1d1d1
+}
 
 
 

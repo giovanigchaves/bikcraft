@@ -23,3 +23,6 @@
 
 /* Introducao do Site */
 @import "home/introducao.css";
+
+/* Lista de bicicletas do Site */
+@import "bicicletas/bicicletas-lista.css";
