@@ -24,7 +24,6 @@ a {
 
 img {
   max-width: 100%;
-  min-width: max-content;
   height: auto;
   display: block;
 }
