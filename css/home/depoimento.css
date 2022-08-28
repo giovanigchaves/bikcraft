@@ -1,0 +1,84 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p1);
+}
+.depoimento img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.depoimento-conteudo {
+  padding: 40px 40px 80px 80px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  overflow: hidden;
+  background: url("../../img/dec/top-left-p.svg") no-repeat top 40px left 40px,
+  url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
+}
+.depoimento-conteudo blockquote {
+  margin-top: auto;
+}
+.depoimento-conteudo p {
+  max-width: 32ch;
+  font-family: merriweather;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+
+.depoimento p::before {
+  content: "“";
+  position: absolute;
+  left: -50px;
+  top: -20px;
+  color: var(--cor-p2);
+  font-size: 5rem;
+  z-index: -1;
+}
+.depoimento p::after {
+  content: "”";
+  position: absolute;
+  bottom: -60px;
+  color: var(--cor-p2);
+  font-size: 5rem;
+  z-index: -1;
+}
+
+/* mantem as configuracoes definidas acima de 1200px */
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento img {
+    max-height: 200px;
+  }
+  .depoimento-conteudo {
+    padding: 40px 30px;
+    align-items: center;
+    background: none;
+  }
+  .depoimento-conteudo p {
+    margin-bottom: 1.275rem;
+  }
+  .depoimento p::before {
+    font-size: 3rem;
+    left: -28px;
+    top: -10px;
+  }
+  .depoimento p::after {
+    font-size: 3rem;
+    bottom: -30px;
+  }
+}

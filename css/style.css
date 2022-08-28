@@ -14,7 +14,6 @@
 /* Componentes */
 @import "utilidades/componentes.css";
 
-
 /******************************/
 /* Estilo para paginas do site */
 /******************************/
@@ -33,15 +32,5 @@
 /* Sessão de parceiros */
 @import "home/parceiros.css";
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* Sessão depoimento */
+@import "home/depoimento.css";
