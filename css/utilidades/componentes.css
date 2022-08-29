@@ -2,14 +2,13 @@
 /* Classes pre-definidas para o padrão do site */
 /******************************/
 
-.container{
-  border: solid 1px orange;
+.container {
   max-width: 1200px;
   padding: 0px 20px;
   margin: 0px auto;
 }
 
-.botao{
+.botao {
   display: inline-block;
   padding: 16px 32px;
   background: linear-gradient(var(--cor-p1), var(--cor-p6));
@@ -55,7 +54,6 @@
   transform: translateX(4px);
 }
 
-
 .link {
   display: inline-block;
   font: var(--font-1-l);
@@ -92,7 +90,6 @@
   margin-bottom: 4px;
 }
 
-
 /******************************/
 /* Classes pre-definidas para o padrão no media query */
 /******************************/
@@ -116,11 +113,3 @@
     font-size: 1rem;
   }
 }
-
-
-
-
-
-
-
-
