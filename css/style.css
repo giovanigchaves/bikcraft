@@ -40,3 +40,7 @@
 
 /* footer */
 @import "global/footer.css";
+
+/* Pagina bicicletas */
+
+@import "bicicletas/bicicletas.css";

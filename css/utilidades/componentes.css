@@ -46,7 +46,7 @@
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url("../../img/icones/seguro.svg");
+  background: url("../../img/icones/seta.svg");
   transition: transform 0.2s;
 }
 
@@ -112,4 +112,9 @@
     padding: 12px 16px;
     font-size: 1rem;
   }
+}
+
+/* temporário*/
+.margin-bottom {
+  margin-bottom: 300px;
 }
