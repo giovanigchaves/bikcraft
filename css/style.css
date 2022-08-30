@@ -42,5 +42,13 @@
 @import "global/footer.css";
 
 /* Pagina bicicletas */
-
 @import "bicicletas/bicicletas.css";
+
+/* Pagina seguros */
+@import "seguros/seguro.css";
+
+/* vantagens */
+@import "seguros/vantagens.css";
+
+/* perguntas */
+@import "seguros/perguntas.css";

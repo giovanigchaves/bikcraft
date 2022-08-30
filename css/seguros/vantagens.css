@@ -1,0 +1,38 @@
+.vantagens-bg{
+  background:  url("../../img/dec/bottom-left.svg") no-repeat bottom 40px left
+  20px,
+url("../../img/dec/bottom-right.svg") no-repeat bottom 40px right 20px,
+var(--cor-12);
+}
+.vantagens{
+  padding: 120px 20px;
+}
+.vantagens h2{
+  margin-bottom: 60px;
+}
+
+.vantagens ul{
+  display: grid;
+  /** define um tamanho mínimo e o máximo como automático para os itens da lista **/
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  gap: 40px 80px;
+}
+.vantagens h3,
+.vantagens img{
+  margin-bottom: 8px;
+}
+/*! Media Query */
+@media (max-width: 800px) {
+  .vantagens-bg {
+    background: var(--cor-12);
+  }
+  .vantagens{
+    padding: 60px 20px;
+  }
+  .vantagens h2{
+    margin-bottom: 40px;
+  }
+  vantagens ul{
+    gap: 20px;
+  }
+}
