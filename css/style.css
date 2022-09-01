@@ -52,3 +52,9 @@
 
 /* perguntas */
 @import "seguros/perguntas.css";
+
+/* bicicletas */
+@import "bicicleta/bicicleta.css";
+
+/* seguros */
+@import "bicicleta/seguros.css";
