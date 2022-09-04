@@ -14,6 +14,8 @@
 /* Componentes */
 @import "utilidades/componentes.css";
 
+/* Formularios */
+@import "utilidades/formulario.css";
 /******************************/
 /* Estilo para paginas do site */
 /******************************/
@@ -58,3 +60,12 @@
 
 /* seguros */
 @import "bicicleta/seguros.css";
+
+/* contato */
+@import "contato/contato.css";
+
+/* orcamento */
+@import "orcamento/orcamento.css";
+
+/* lojas */
+@import "contato/lojas.css";
