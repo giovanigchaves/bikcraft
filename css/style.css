@@ -69,3 +69,6 @@
 
 /* lojas */
 @import "contato/lojas.css";
+
+/* Termos */
+@import "termos/termos.css";

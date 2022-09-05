@@ -96,7 +96,6 @@
             </ul>
             <img src="img/bicicletas/nebula.jpg" alt="Bicicleta branca">
           </div>
-
         </div>
 
         <div class="orcamento-conteudo" id="orcamento-seguro">
@@ -117,53 +116,51 @@
 
         <div>
           <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome">
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required pattern="[A-Za-zÀ-ú ']{4,}" >
         </div>
 
         <div>
           <label for="sobrenome">Sobrenome</label>
-          <input type="text" id="sobrenome" name="sobrenome">
+          <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome" pattern="[A-Za-zÀ-ú ']{4,}" >
         </div>
 
         <div class="col-2">
           <label for="CPF">CPF</label>
-          <input type="text" id="CPF" name="CPF">
+          <input type="text" id="CPF" name="CPF" placeholder="Seu CPF" pattern="[0-9.--]+${11,14}" />
         </div>
 
         <div class="col-2">
           <label for="email">Email</label>
-          <input type="text" id="email" name="email">
+          <input type="email" id="email" name="email" placeholder="SeuEmail@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
         </div>
 
         <h2 class="font-1-xs cor-9 col-2">entrega</h2>
         <div>
           <label for="cep">CEP</label>
-          <input type="text" id="cep" name="cep">
+          <input type="text" id="cep" name="cep" placeholder="Seu CEP" required pattern= "\d{5}-?\d{3}">
         </div>
 
         <div>
           <label for="numero">Número</label>
-          <input type="text" id="numero" name="numero">
+          <input type="text" id="numero" name="numero" required placeholder="Seu número" pattern= "[0-9]+$">
         </div>
-
         <div>
-          <label for="logradouro">Logradouro</label>
-          <input type="text" id="logradouro" name="logradouro">
+          <label for="complemento">Complemento</label>
+          <input type="text" id="complemento" name="complemento" placeholder="Ex: Casa 02 / Ap 345">
         </div>
-
         <div>
           <label for="bairro">Bairro</label>
-          <input type="text" id="bairro" name="bairro">
+          <input type="text" id="bairro" name="bairro"  placeholder="Seu Bairro" pattern="[A-Za-zÀ-ú ']{3,}">
         </div>
 
         <div>
           <label for="cidade">Cidade</label>
-          <input type="text" id="cidade" name="cidade">
+          <input type="text" id="cidade" name="cidade" placeholder="Sua Cidade" pattern="[A-Za-zÀ-ú ']{3,}" >
         </div>
 
         <div>
           <label for="estado">Estado</label>
-          <input type="text" id="estado" name="estado">
+          <input type="text" id="estado" name="estado" placeholder="Seu Estado" pattern="[A-Za-zÀ-ú ']{2,}">
         </div>
 
         <button class="botao col-2">Solicitar Orçamento</button>

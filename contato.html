@@ -73,19 +73,19 @@
         <form action="#" class="form">
           <div>
             <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required pattern="[A-Za-zÀ-ú ']{4,}" >
           </div>
           <div>
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="telefone" placeholder="(XX) 99999-9999">
+            <input type="text" id="telefone" name="telefone" placeholder="XX 99999 9999" required pattern="[0-9()--]+$" />
           </div>
           <div class="col-2">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="contato@email.com">
+            <input type="email" id="email" name="email" placeholder="contato@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
           </div>
           <div class="col-2">
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" placeholder="O que você precisa?" rows="5"></textarea>
+            <textarea id="mensagem" name="mensagem" placeholder="O que você precisa?" rows="5" required></textarea>
           </div>
           <button class="botao col-2">Enviar Mensagem</button>
         </form>
